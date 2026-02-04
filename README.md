@@ -1,27 +1,32 @@
 # 🧠 SQL Data Analysis Practice
 
 ## 📌 Project Overview
-This repository contains SQL queries and mini-projects focused on data analysis.
-It demonstrates how SQL is used to answer business questions using structured data.
+This repository contains practical SQL queries designed to answer common business questions using relational data.  
+The project demonstrates how SQL is used for **data exploration, aggregation, and business insight generation**.
 
 ---
 
 ## 📂 Dataset Description
-- Type: Relational database
-- Tables: customers, orders, products (example)
-- Description: Sample business data used for analysis
+**Type:** Relational database  
+**Sample Tables:**
+- `customers` – customer details
+- `orders` – transaction records
+- `products` – product catalog
+
+**Use Case:**  
+Simulated business data for practicing real-world SQL analysis.
 
 ---
 
-## ❓ Questions Answered
-- How many orders were placed per customer?
+## ❓ Business Questions Answered
+- How many orders were placed by each customer?
 - Which products generate the highest revenue?
-- What are the monthly sales trends?
-- Which customers are most valuable?
+- What are the overall sales patterns?
+- Which customers are most valuable to the business?
 
 ---
 
-## 🛠️ Tools Used
+## 🛠️ Tools & Technologies
 - SQL
 - PostgreSQL / MySQL / SQLite
 - Git & GitHub
@@ -29,12 +34,26 @@ It demonstrates how SQL is used to answer business questions using structured da
 ---
 
 ## 📊 Key Insights
-- Identified top-performing products
-- Analyzed customer purchasing behavior
-- Calculated revenue trends using SQL aggregations
+- Identified high-value customers using order frequency
+- Measured product performance using aggregation functions
+- Applied `GROUP BY`, `JOIN`, and `ORDER BY` for analysis
+
+---
+
+## 📁 Repository Structure
+sql-data-analysis-practice/
+│
+├── queries.sql
+├── README.md
+└── LICENSE
 
 ---
 
 ## ✅ Conclusion
-This project demonstrates how SQL can be used to extract insights from
-relational databases and support data-driven decision-making.
+This project demonstrates how SQL can be used to transform raw relational data into actionable business insights.  
+It reflects core data analyst skills including querying, aggregation, and analytical thinking.
+
+---
+
+👩‍💻 **Author:** Vera Nhema Kinya  
+📊 **Focus:** Data Analysis • SQL • Business Insights
